@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MayaServ.exe" version="1.0.0.6" publicKeyToken="90daaecab055c5e3" language="es-HN" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Imagenes\express_delivery_transport_shipping_fast_truck_icon_225192.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="16808">
+      <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>okInWNMMkpB/wgQjeTH5bJ90JxTtCE06rg9k05vNZ+A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BouncyCastle.Crypto.dll" size="3318504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9CuGCYVNgNf4HydjQFBKpegrvk1z0FCA/vH8yiREtNU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Protobuf.dll" size="403288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R1tVwRhKhzXVQjEANtyOoaE6ZVnLB/tMeuhJEyKIgL4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Imagenes\express_delivery_transport_shipping_fast_truck_icon_225192.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kDIhwZo/yPDmGc4sO6vmrQ4StWDkZQ8chdvGoDIC7I0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="K4os.Compression.LZ4.dll" size="60416">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/x7TAakpIVJ2TF5P1Wu+XGWD19Wf58DZ+RfaGQdLcBw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="K4os.Compression.LZ4.Streams.dll" size="37376">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pOP/VrKinpM8/PrX+fKBgXzdxptxgyqIpn8ebfiTJaE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="K4os.Hash.xxHash.dll" size="12288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mZxjLEZ98OxH3Gj3WEUmbNGjcEU2qsFuPVoCCG+Ckqs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MayaServ.deps.json" size="12546">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5o+wnX1PYPNn/X3Qyx/E0n8G9SYr4iYh/O9DXHMXpT4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MayaServ.dll" size="497064">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WoLjKEIE7MxR//eLjAeZGw9jVl6Qwo3j+pZ/HX+okzU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MayaServ.exe" size="217000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wLAnlfdjcBcLdFuDU+j8/F1EQ5khACjLr+IlWugMmbE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MayaServ.runtimeconfig.json" size="372">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HsoPDHAHCqg7tgnkt0mybctECXhDJgMnJjlHIiJKCYo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MySql.Data.dll" size="1526784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xyQ6LcPK+H3TSnhr3K1d8JZ+OwMO0iSkA9to5UpTdy4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MySqlConnector.dll" size="610816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UAf1k6kzwN/ptk40d0xXj7qLrJKmemdo2B1JtSDKiCA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Renci.SshNet.dll" size="801792">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hWhZ1QjFC28xtAVaJjA0jaQrgeo32205RQyWGYG2URQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SshNet.Security.Cryptography.dll" size="34816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ebfOyt57+drMf7EQkGbAs+z9Q04wPmfbPbZCgX8qzbo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Ubiety.Dns.Core.dll" size="55808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AZnuMl92VNQ74m4O+fXzc+nN9LZP1xsfoplS4lGNs4k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ZstdNet.dll" size="28672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qHQrOu1OEarYbGK1Rhqe/j6PJ7QlUUGg6ArSxGwbXBk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ALICE\jorge" issuerKeyHash="25371e78be0215df438d2c0b3936194122f8bf80" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Za7Y53pOL6psor+6K2N3PVc1+V3t1/1sCKeP0aSkLsc=</DigestValue></Reference></SignedInfo><SignatureValue>Ja4De1ZcgJv/b+U6Wxie6Kuj+KknppBPjIUbsFYtzM6Ao2SV9XTWl9zX9/3yXKc6ta5IW7n4Kuacv/SehzVuFBhMbSLBqxS6YQ15mfSC4NQ0ogtmcRh5XWCNAxycwT9BfDnXKuoAeqJ1ww2y3vnoqNVYP4plhiQzc31Ot9SVAp0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>24NJlbZbnV20lJvxXzzZUPIBhnYrDP/MKNHx//MxRSbGtbceoikwE/j1d+O+dE47DlO30pROyCZQIc4hUPznKWzPtvm1fbZaOHtH7yb1xuzSacwJG9Kkm+e23pP0d0/WGdEaGD479DeoZJK580yUH/gnNFvg1mwaXyzygJOANXU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c72ea4a4d18fa7086cfdd7ed5df935573d77632bbabfa26caa2f4e7ae7d8ae65" Description="" Url=""><as:assemblyIdentity name="MayaServ.exe" version="1.0.0.6" publicKeyToken="90daaecab055c5e3" language="es-HN" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ALICE\jorge</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+vUzWdV+a/ICz0LN0yL4f7KqMG5jR54p/7dF5TRgQfQ=</DigestValue></Reference></SignedInfo><SignatureValue>yZvvFevC0VQn5LsVm3jabYXzqEkl+5jE2lsaZocrvCWaz9RWDrhpcpOPw/CsCE9YkE7m5iM3dlqIgPfji8Dsacl1HOgbML9+I/4W3EqaaUsb/gts9ICnsYlf0U12Q4GMbiAllIFeEt8j/eJ3rUw+cCyeb6qHQrENOpvK12tjlEk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>24NJlbZbnV20lJvxXzzZUPIBhnYrDP/MKNHx//MxRSbGtbceoikwE/j1d+O+dE47DlO30pROyCZQIc4hUPznKWzPtvm1fbZaOHtH7yb1xuzSacwJG9Kkm+e23pP0d0/WGdEaGD479DeoZJK580yUH/gnNFvg1mwaXyzygJOANXU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQE+fxYH/RsLRNMmgMWfL5ezANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAQQBMAEkAQwBFAFwAagBvAHIAZwBlMB4XDTIyMTAxODAxMTUzNVoXDTIzMTAxODA3MTUzNVowITEfMB0GA1UEAx4WAEEATABJAEMARQBcAGoAbwByAGcAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA24NJlbZbnV20lJvxXzzZUPIBhnYrDP/MKNHx//MxRSbGtbceoikwE/j1d+O+dE47DlO30pROyCZQIc4hUPznKWzPtvm1fbZaOHtH7yb1xuzSacwJG9Kkm+e23pP0d0/WGdEaGD479DeoZJK580yUH/gnNFvg1mwaXyzygJOANXUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAtDS/bu0A1ZgvD42/yUB/izebicAG7O4txzDSZxhCigga5noFcuP0XTQN8F87oKCt+av2DeUAZEcIPoycXUSm0OCcvcognlz46U57dWTJ3rPeZIdeEGmICCmkgwJs09PJbpU3mXQc4rKskGQuSG44HO2x/6VHp6OSseMMg8LZy8g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
